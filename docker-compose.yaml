@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+  nifi:
+    image: profirator/nifi:1.9.2
+    ports:
+        - 8080:8080
+        - 8082:8082
+    volumes:
+        - ./nifi/logs:/nifi/logs
+        - ./nifi/flowfile_repository:/nifi/flowfile_repository
+        - ./nifi/database_repository:/nifi/database_repository
+        - ./nifi/content_repository:/nifi/content_repository
+        - ./nifi/provenance_repository:/nifi/provenance_repository
