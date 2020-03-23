@@ -36,6 +36,7 @@ Just follow the steps below to spin up the Nifi with persistent volumes on
 1. ssh to the server
 2. sudo git clone https://github.com/Profirator/Profi-NiFi.git
 3. cd to directory Profi-NiFi
+4. sudo sh build.sh
 4. sudo docker-compose up &
 
 ## WARNING
