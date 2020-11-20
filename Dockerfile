@@ -1,4 +1,4 @@
-FROM       profirator/nifi-base:1.9.2
+FROM       profirator/nifi-base:1.12.1
 MAINTAINER profirator
 ENV        BANNER_TEXT="" \
            S2S_PORT=""

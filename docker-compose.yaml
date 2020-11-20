@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   nifi:
-    image: profirator/nifi:1.9.2
+    image: profirator/nifi:1.12.1
     ports:
         - 8080:8080
         - 8082:8082
